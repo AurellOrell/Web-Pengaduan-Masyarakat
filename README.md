@@ -18,7 +18,7 @@ Aplikasi Pengaduan Masyarakat adalah proyek tugas akhir untuk Sekolah Menengah K
 
 1. **Unduh atau Clone Repository:**
    ```
-   git clone https://github.com/username/repo.git
+   git clone https://github.com/AurellOrell/Web-Pengaduan-Masyarakat.git
    ```
 
 2. **Setting Database:**
