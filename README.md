@@ -27,11 +27,11 @@ Aplikasi Pengaduan Masyarakat adalah proyek tugas akhir untuk Sekolah Menengah K
 
 3. **Menjalankan Aplikasi:**
    - Gunakan server lokal atau jalankan melalui web server (XAMPP, Wamp, atau sejenisnya).
-   - Akses aplikasi melalui browser (`http://localhost/aplikasi-pengaduan-masyarakat`).
+   - Akses aplikasi melalui browser (`http://localhost/laporan`).
 
 4. **Login Sebagai Admin:**
    - Gunakan kredensial default: 
      - Username: admin
-     - Password: admin123
+     - Password: admin
 
 Terima kasih telah menggunakan Aplikasi Pengaduan Masyarakat! Jika Anda memiliki pertanyaan atau saran, silakan buka [Issues](https://github.com/username/repo/issues).
