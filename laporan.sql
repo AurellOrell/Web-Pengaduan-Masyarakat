@@ -40,12 +40,7 @@ CREATE TABLE `masyarakat` (
 --
 
 INSERT INTO `masyarakat` (`nik`, `nama`, `username`, `password`, `telp`) VALUES
-('0099887766554433', 'aurellia nur fitria', 'user', 'user', '098765432123'),
-('0908793881984283', 'Jung Jaehyun', 'boti', 'roti', '0858712349671'),
-('123243434534', 'bbbbb', 'bbbb', 'bbbb', '98288383'),
-('123456789', 'aurellia', 'orel', '123', '09876543221'),
-('1234567891234567', 'okta liliyani', 'lili', 'lolo', '2313234123123'),
-('7789987', 'joko widodo', 'joko', 'wi', '98288383');
+('1234567890123456', 'user', 'user', 'user', '081234567890');
 
 -- --------------------------------------------------------
 
@@ -67,17 +62,7 @@ CREATE TABLE `pengaduan` (
 --
 
 INSERT INTO `pengaduan` (`id_pengaduan`, `tgl_pengaduan`, `nik`, `isi_laporan`, `foto`, `status`) VALUES
-(1, '2023-02-14', '1234567891234567', 'jalan yang bahaya, kalo ga jalan bersamamu', '864433f58becb78f2c4d9e94cd350770course_certificate_a2d1a671rkvbgo.png', 'selesai'),
-(2, '2023-02-18', '0099887766554433', 'dfdggggggg', '2023-01-17 (8).png', 'selesai'),
-(6, '2023-02-18', '0099887766554433', 'try status\r\nsasdakskdksdas', '2023-02-14.png', 'selesai'),
-(7, '2023-02-18', '0099887766554433', 'coba lagi', '2022-07-06 (1).png', 'selesai'),
-(8, '2023-02-18', '0099887766554433', 'yaaaaaaaaaaaaaa', '2022-07-06 (6).png', 'selesai'),
-(9, '2023-02-18', '1234567891234567', 'kalsnk', '2022-08-03 (3).png', 'proses'),
-(10, '2023-02-18', '1234567891234567', 'kalsnk', '2022-08-03 (3).png', 'proses'),
-(11, '2023-03-01', '7789987', 'jalan raya rusak', 'clipart-math-icon-10.png', 'selesai'),
-(12, '2023-03-01', '123456789', 'cobaaaa', 'clipart-math-icon-10.png', 'selesai'),
-(13, '2023-03-01', '123456789', 'asa', 'clipart-math-icon-10.png', 'selesai'),
-(14, '2023-03-01', '7789987', 'sdasda', 'clipart-math-icon-10.png', 'selesai');
+(1, '2023-01-01', '1234567890123456', 'Isi Laporan Pengaduan', 'nama_foto.jpg', 'proses');
 
 -- --------------------------------------------------------
 
@@ -100,8 +85,7 @@ CREATE TABLE `petugas` (
 
 INSERT INTO `petugas` (`id_petugas`, `nama_petugas`, `username`, `password`, `telp`, `level`) VALUES
 (1, 'admin', 'admin', 'admin', '081274389121', 'admin'),
-(2, 'Lee Haechan', 'petugas', 'petugas', '089123923845', 'petugas'),
-(23, 'a', 'a', 'a', '1234567890', 'admin');
+(2, 'petugas', 'petugas', 'petugas', '089123923845', 'petugas');
 
 -- --------------------------------------------------------
 
@@ -122,12 +106,7 @@ CREATE TABLE `tanggapan` (
 --
 
 INSERT INTO `tanggapan` (`id_tanggapan`, `id_pengaduan`, `tgl_tanggapan`, `tanggapan`, `id_petugas`) VALUES
-(1, 1, '2023-02-14', 'ahayy anjay slebewww', 1),
-(3, 6, '2023-02-18', 'ada beberapa kesalalhan tpi tertangani', 2),
-(10, 8, '2023-02-18', 'fdfgdgdfg', 1),
-(12, 7, '2023-02-18', 'terusss', 2),
-(13, 11, '2023-03-01', 'jalan mana', 1),
-(14, 12, '2023-03-01', 'iyaaa', 1);
+(1, 1, '2023-01-02', 'Tanggapan Petugas', 1);
 
 --
 -- Indexes for dumped tables
