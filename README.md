@@ -22,7 +22,7 @@ Aplikasi Pengaduan Masyarakat adalah proyek tugas akhir untuk Sekolah Menengah K
    ```
 
 2. **Setting Database:**
-   - Buat database baru dan import skema yang disediakan (`database.sql`).
+   - Buat database baru dan import skema yang disediakan (`laporan.sql`).
    - Konfigurasi koneksi database di file `config.php`.
 
 3. **Menjalankan Aplikasi:**
